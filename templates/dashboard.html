@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+  <br>
+  <h1>Welcome, {{user.username}}</h1>
+  <br>
+  <hr>
+  <button type="button" class="btn btn-primary" onclick="window.location.href='/accounts/guidelines/';" target="_blank">Guidelines</button>
+  <button type="button" class="btn btn-primary" onclick="window.location.href='/accounts/java/';" target="_blank">Java Test</button>
+  <button type="button" class="btn btn-primary" onclick="window.location.href='/accounts/python/';" target="_blank">Python Test</button>
+  <button type="button" class="btn btn-primary" onclick="window.location.href='/accounts/aptitude/';" target="_blank">Aptitude Test</button>
+{% endblock %}
