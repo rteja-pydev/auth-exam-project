@@ -1,1 +1,1 @@
-# my-django-app
+# auth-exam-project
